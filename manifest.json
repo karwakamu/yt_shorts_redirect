@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "yt_shorts_redirect",
+    "version": "1.0.0",
+    "description": "kaikki pitää aina tehä ite saatana",
+    "icons":{
+        "48":"icons/icon-48.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.youtube.com/*"],
+            "js": ["main.js"]
+        }
+    ]
+}
